@@ -1,6 +1,23 @@
 body {
-    height: 90vh;
-    width: 90vw;
-    margin: 5vh 5vw;
-    background: linear-gradient(#102040, #105050)
+    background: #102040 100%;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.scroll {
+    position: absolute;
+    top: -5%;
+    display: block;
+    width: 100vw;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    
+    transition: 2s;
+}
+
+.two {
+    top: 105%;
 }
