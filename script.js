@@ -16,4 +16,4 @@ const toggleClass = () => {
 
 
 
-let myAnything = setInterval(toggleClass, 2000)
+let myAnything = setInterval(toggleClass, 4000)

@@ -10,14 +10,16 @@ body {
     top: -5%;
     display: block;
     width: 100vw;
-    height: 1px;
+    height: 2.5px;
     margin: 0;
     padding: 0;
     background: #ffffff;
-    
-    transition: 2s;
+    box-shadow: 0 0 15px 2.5px #ffffff;
+    transition: 4s;
 }
 
 .two {
     top: 105%;
+    /* transition: 0s; */
+
 }
