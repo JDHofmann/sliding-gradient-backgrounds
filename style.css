@@ -11,17 +11,32 @@ body {
     top: 0;
     left: 5%;
     display: block;
-    width: .25px;
+    width: 1px;
     height: 0;
     margin-top: 50vh;
     padding: 0;
     background: #ffffff;
-    /* box-shadow: 0 0 15px 2.5px #ffffff; */
+}
+
+.red {
+    background: #ff0000;
+}
+
+.orange {
+    background: #ff8000;
+}
+
+.gold {
+    background: #ffa000;
+}
+
+.light-blue {
+    background: #00d0ff;
 }
 
 .transition {
     transition: 2s;
-    transition-timing-function: ease-in;
+    transition-timing-function: cubic-bezier(1,0,1,1);
 
 }
 
@@ -32,6 +47,7 @@ body {
     height: 50vh;
     margin-top: 25vh;
 }
+
 
 
 
