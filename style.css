@@ -1,13 +1,24 @@
 body {
     background: #102040 100%;
     padding: 0;
+    margin: 0;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
 
 main {
-    /* background: linear-gradient( #00ffff,  #ff0000,#ff8000); */
+    border: 2.5px solid #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    margin: 20vh 5vw;
+    height: 60vh;
+    width: 90vw;
+}
+
+.border-overlay{
+    border: 3px solid #ffffff;
+    border-radius: 10px;
     position: absolute;
     margin: 20vh 5vw;
     height: 60vh;
@@ -20,10 +31,7 @@ main {
     left: 0;
     display: block;
     width: 1px;
-    height: 0;
-    /* margin-top: 50vh; */
     height: 60vh;
-    /* margin-top: 20vh; */
     padding: 0;
     background: #ffffff;
 }
@@ -66,9 +74,10 @@ main {
 }
 
 .two {
-    left: 100%;
+    left: calc(100% - 25px);
     transition: 0;
-    width: 20px;
+    width: 25px;
     height: 60vh;
-    /* margin-top: 20vh; */
+    /* border-radius: 0 6.66px 6.66px 0; */
+    /* margin-top: 0; */
 }
