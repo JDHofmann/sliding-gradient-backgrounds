@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background: #ffffff;
-    box-shadow: 0 0 15px 2.5px #ffffff;
+    /* box-shadow: 0 0 15px 2.5px #ffffff; */
     transition: 4s;
 }
 
