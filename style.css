@@ -3,9 +3,70 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .scroll {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    display: block;
+    width: 1px;
+    height: 0;
+    margin-top: 50vh;
+    padding: 0;
+    background: #ffffff;
+}
+
+.yellow {
+    background: #ffff00;
+}
+.orange {
+    background: #ff8000;
+}
+.red {
+    background: #ff0000;
+}
+.pink {
+    background: #ff0080;
+}
+.magenta {
+    background: #ff00ff;
+}
+.violet {
+    background: #8000ff;
+}
+.blue {
+    background: #0000ff;
+}
+.turq {
+    background: #00ffff;
+}
+.greenish {
+    background: #00ff80;
+}
+.green {
+    background: #00ff00;
+}
+
+.transition {
+    transition: 2s;
+    transition-timing-function: cubic-bezier(1,0,1,1);
+
+}
+
+.two {
+    left: 105%;
+    transition: 0;
+    width: 10px;
+    height: 60vh;
+    margin-top: 20vh;
+}
+
+
+
+
+/* .scroll {
     position: absolute;
     top: -5%;
     display: block;
@@ -14,12 +75,10 @@ body {
     margin: 0;
     padding: 0;
     background: #ffffff;
-    /* box-shadow: 0 0 15px 2.5px #ffffff; */
+    box-shadow: 0 0 15px 2.5px #ffffff;
     transition: 4s;
 }
 
 .two {
     top: 105%;
-    /* transition: 0s; */
-
-}
+} */
