@@ -3,9 +3,39 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .scroll {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    display: block;
+    width: .25px;
+    height: 0;
+    margin-top: 50vh;
+    padding: 0;
+    background: #ffffff;
+    /* box-shadow: 0 0 15px 2.5px #ffffff; */
+}
+
+.transition {
+    transition: 2s;
+    transition-timing-function: ease-in;
+
+}
+
+.two {
+    left: 105%;
+    transition: 0;
+    width: 10px;
+    height: 50vh;
+    margin-top: 25vh;
+}
+
+
+
+/* .scroll {
     position: absolute;
     top: -5%;
     display: block;
@@ -14,12 +44,10 @@ body {
     margin: 0;
     padding: 0;
     background: #ffffff;
-    /* box-shadow: 0 0 15px 2.5px #ffffff; */
+    box-shadow: 0 0 15px 2.5px #ffffff;
     transition: 4s;
 }
 
 .two {
     top: 105%;
-    /* transition: 0s; */
-
-}
+} */
