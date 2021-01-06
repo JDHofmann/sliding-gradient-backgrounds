@@ -18,20 +18,35 @@ body {
     background: #ffffff;
 }
 
-.red {
-    background: #ff0000;
+.yellow {
+    background: #ffff00;
 }
-
 .orange {
     background: #ff8000;
 }
-
-.gold {
-    background: #ffa000;
+.red {
+    background: #ff0000;
 }
-
-.light-blue {
-    background: #00d0ff;
+.pink {
+    background: #ff0080;
+}
+.magenta {
+    background: #ff00ff;
+}
+.violet {
+    background: #8000ff;
+}
+.blue {
+    background: #0000ff;
+}
+.turq {
+    background: #00ffff;
+}
+.greenish {
+    background: #00ff80;
+}
+.green {
+    background: #00ff00;
 }
 
 .transition {
@@ -44,8 +59,8 @@ body {
     left: 105%;
     transition: 0;
     width: 10px;
-    height: 50vh;
-    margin-top: 25vh;
+    height: 60vh;
+    margin-top: 20vh;
 }
 
 
