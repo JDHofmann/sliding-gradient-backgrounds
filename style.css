@@ -36,43 +36,28 @@ main {
     background: #ffffff;
 }
 
-.yellow {
-    background: #ffff00;
+.one {
+    background: #a0ffe0;
 }
-.orange {
-    background: #ff8000;
+
+.two {
+    background: #80ffc0;
 }
-.red {
-    background: #ff0000;
+
+.three {
+    background: #40ffa0;
 }
-.pink {
-    background: #ff0080;
-}
-.magenta {
-    background: #ff00ff;
-}
-.violet {
-    background: #8000ff;
-}
-.blue {
-    background: #0000ff;
-}
-.turq {
-    background: #00ffff;
-}
-.greenish {
+.four {
     background: #00ff80;
 }
-.green {
-    background: #00ff00;
-}
+
 
 .transition {
     transition: 2.5s;
     transition-timing-function: cubic-bezier(1,0,0.5,1);
 }
 
-.two {
+.end {
     left: calc(100% - 2.5vw);
     transition: 0;
     width: 2.5vw;

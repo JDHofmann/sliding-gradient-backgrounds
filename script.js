@@ -10,32 +10,26 @@ const swipeRight = () => {
             console.log("0")
             break
         case 1:
-            stripe.classList.add("yellow")
+            stripe.classList.add("one")
             break
         case 2:
-            stripe.classList.add("orange")
+            stripe.classList.add("two")
             break  
         case 3:
-            stripe.classList.add("red")
+            stripe.classList.add("three")
             break
         case 4:
-            stripe.classList.add("pink")
+            stripe.classList.add("four")
             break
         case 5:
-            stripe.classList.add("magenta")
+            stripe.classList.add("three")
             break
         case 6:
-            stripe.classList.add("blue")
+            stripe.classList.add("two")
             break
         case 7:
-            stripe.classList.add("turq")
-            break
-        case 8:
-            stripe.classList.add("greenish")
-            break
-        case 9:
-            stripe.classList.add("green")
-            count = 0
+            stripe.classList.add("one")
+            count = -1
             break
         default:
             console.log("default")
@@ -44,14 +38,14 @@ const swipeRight = () => {
     main.append(stripe)
     setTimeout(()=> {
         stripe.classList.add("transition");
-        stripe.classList.add("two");
+        stripe.classList.add("end");
         count++;
         swipeRight();
     }, 200)
     setTimeout(()=> {
         stripe.remove()
-    }, 5000)
+    }, 4000)
 }
 
 
-swipeRight()
+swipeRight();
