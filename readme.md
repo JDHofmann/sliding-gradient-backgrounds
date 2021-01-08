@@ -2,6 +2,10 @@
 
 I've been working on a series of projects with vanilla js, for fun and practice
 
-I thought this was something fun to look at
+<br>
+
+I thought this was visually pleasing, and simple
+
+<br>
 
 [Check out the Live Demo](https://jdhofmann.github.io/sliding-gradient-backgrounds/)
